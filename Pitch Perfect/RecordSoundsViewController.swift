@@ -54,6 +54,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         let audioSession = AVAudioSession.sharedInstance()
         try! audioSession.setActive(false)
     }
+    
     @IBOutlet weak var recordButton: UILabel!
     @IBOutlet weak var stopRecordingButton: UIButton!
     @IBOutlet weak var recordingButton: UILabel!
